@@ -140,6 +140,7 @@ a {
     padding: 20px;
     display: block;
     z-index: 1;
+    transition: .3s ease color;
 }
 
 #header .nav-list ul a:after {
@@ -763,6 +764,10 @@ a {
 
     #header .nav-list ul li:hover a:after {
         transform: translate(-50%, -50%) scale(0);
+    }
+
+    #header .nav-list li:hover a {
+        color: var(--main-color);
     }
     /* End Header */
 
