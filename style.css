@@ -410,7 +410,7 @@ a {
 
 #projects .project-info p {
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 #projects .project-img {
@@ -429,7 +429,7 @@ a {
   transition: 0.3s ease transform;
 }
 
-#projects .project-item:hover .project-img img {
+#projects .project-item .project-img:hover img {
   transform: scale(1.3);
 }
 
