@@ -369,7 +369,7 @@ a {
 
 #projects .project-item {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -387,8 +387,6 @@ a {
 #projects .project-info {
   padding: 30px;
   flex-basis: 50%;
-
-  height: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -416,7 +414,6 @@ a {
 #projects .project-img {
   width: 100%;
   flex-basis: 50%;
-  height: 100%;
   overflow: hidden;
   font-size: 0;
   line-height: 0;
